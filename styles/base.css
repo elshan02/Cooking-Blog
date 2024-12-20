@@ -1,0 +1,44 @@
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+    background-image: url(../images/squares_bg.png);
+}
+
+header {
+    text-align: center;
+    color: green;
+}
+
+nav {
+    border-top: #008080 solid 5px;
+    border-bottom: #008080 solid 5px;
+}
+
+h1, h2 {
+    font-family: "Dancing Script", serif;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+/* Used article here in order not to confuse with section tag */
+article {
+    background-color: grey;
+    color: white;
+    padding: 50px;
+    background-image: url(../images/squares_bg.png);
+}
+
+footer {
+    background-color: #008080;
+    text-align: center;
+    color: #4cc1c6;
+    padding: 25px;
+    margin: 3px;
+}
+
+

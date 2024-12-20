@@ -1,0 +1,107 @@
+@media only screen and (max-width: 431px) { /* iPhone 14 Pro Max */
+    article img {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 820px) and (min-height: 1180px) { /* iPad Air */
+ 
+    header h1 {
+        font-size: 50px;
+    }
+   
+    header img {
+        position: relative;
+        top: 130px;
+        right: 230px;
+        z-index: -1;
+    }
+    
+    nav {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: white;
+        text-align: center;
+    }
+    
+    nav li {
+        display: inline;
+        margin: 0 1rem;
+        text-align: center;
+    }
+
+    ul {
+        display: block;
+        list-style-type: disc;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        padding-inline-start: 40px;
+        unicode-bidi: isolate;
+    }
+    
+    .box-div {
+        margin-top: 50px;
+        padding-left: 5px;
+        padding-bottom: 85px;
+    }
+
+    .date {
+        margin-bottom: 10px;
+    }
+    .box-div h2 {
+        font-size: 60px;
+    }
+
+    .box-div img {
+        float: left;
+        width: 30%;
+        margin-right: 20px;
+    }
+
+    .box-div p {
+        opacity: 65%;
+    }
+
+    article img {
+        float: left;
+        margin-right: 45px;
+    }
+
+    article h2 {
+        font-size: 50px;
+    }
+
+}
+
+@media only screen and (min-width: 1200px) {  /* Desktop */
+
+    header img {         /* Smiley Face */
+        position: relative;
+        top: 130px;
+        right: 430px;
+        z-index: -1;
+    }
+
+    .box-div {       /* container section */
+        float: left;
+        width: 27%;
+        padding: 10px;
+        margin-right: 38px;
+        margin-left: 15px;
+    }
+
+    section::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+
+    .box-div img {
+        width: 90%;
+    }
+    
+}

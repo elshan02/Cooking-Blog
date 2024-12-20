@@ -1,0 +1,72 @@
+header img{
+    opacity: 16%;
+    width: 150px;
+}
+
+header h1 {
+    color: #008080;
+}
+
+nav li {
+    list-style: none;
+    text-align: center;
+    padding: 5px;
+    background-color: white;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #808080;
+}
+
+.box-div{
+    background-color: white;
+    margin: 25px;
+    padding: 20px;
+    border: solid 1px black;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px grey;
+}
+
+/*spesific adjustments for author names and date*/
+.author, .date  {
+    text-align: right;
+    color: #808080;
+    margin-top: 10px;
+}
+
+.box-div img {
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 75%;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.box-div h2 {
+    color: #008080;
+    font-size: 30px;
+}
+
+.box-div p {
+  line-height: 1.5;
+  text-align: justify;
+  padding: 0 15px;
+}
+
+article h2 {
+    color: white;
+    text-shadow: 1px 1px black;
+}
+
+article p {
+    opacity: 55%;
+}
+
+footer b {
+    color: white;
+}
